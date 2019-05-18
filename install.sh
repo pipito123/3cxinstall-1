@@ -5,9 +5,7 @@ sudo apt update --yes
 echo "INSTALL new apps"
 sudo apt-get install net-tools tshark wireshark davfs2 cifs-utils net-tools -y
 
-
 cd /home/omadmin/
-wget "https://drive.google.com/uc?export=download&id=13Lft73WKVyfrUoHCrxJVMjKqsvY9i_u7"
 
 wget "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 dpkg -i google-chrome-stable_current_amd64.deb 
