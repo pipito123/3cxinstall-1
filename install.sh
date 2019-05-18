@@ -25,6 +25,5 @@ echo "deb http://downloads-global.3cx.com/downloads/debian stretch main" | sudo 
 apt-get update
 apt-get install -y 3cxpbx
 
+echo 1 | command
 
-chmod +x config.sh
-./config.sh
