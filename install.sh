@@ -6,6 +6,8 @@ echo "INSTALL new apps"
 sudo apt-get install net-tools tshark wireshark davfs2 cifs-utils net-tools -y
 
 cd /home/omadmin/
+wget -o file https://github.com/febo01/3cxinstall/blob/master/Integration.zip
+
 
 wget "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 dpkg -i google-chrome-stable_current_amd64.deb 
