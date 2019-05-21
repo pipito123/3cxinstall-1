@@ -1,4 +1,7 @@
 #!/bin/bash
+
+sudo su
+
 echo "Updating system..."
 sudo apt update --yes
 
@@ -22,8 +25,8 @@ echo barbier1510 | command
 echo "Install 3CX PBX"
 wget -O- "http://downloads-global.3cx.com/downloads/3cxpbx/public.key" | apt-key add -
 echo "deb http://downloads-global.3cx.com/downloads/debian stretch main" | sudo tee /etc/apt/sources.list.d/3cxpbx.list
-apt-get update
-apt-get install -y 3cxpbx
+sudo apt-get update
+sudo apt-get install -y 3cxpbx
 
 echo 1 | command
 
