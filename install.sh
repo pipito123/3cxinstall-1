@@ -6,14 +6,14 @@ echo "Updating system..."
 sudo apt update --yes
 
 echo "INSTALL new apps"
-sudo apt-get install net-tools tshark mtr wireshark davfs2 cifs-utils net-tools -y
+sudo apt-get install net-tools tshark mtr wireshark davfs2 cifs-utils net-tools dphys-swapfile -y
 
 cd /home/omadmin/
 wget -o file https://github.com/febo01/3cxinstall/blob/master/Integration.zip
 
 
 wget "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
-dpkg -i google-chrome-stable_current_amd64.deb 
+sudo dpkg -i google-chrome-stable_current_amd64.deb 
 
 mkdir /mnt/dav
 
