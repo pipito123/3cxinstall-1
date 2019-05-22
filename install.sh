@@ -12,8 +12,7 @@ cd /home/omadmin/
 wget -o file https://github.com/febo01/3cxinstall/blob/master/Integration.zip
 
 
-wget "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
-sudo dpkg -i google-chrome-stable_current_amd64.deb 
+ 
 
 mkdir /mnt/dav
 
@@ -28,5 +27,4 @@ echo "deb http://downloads-global.3cx.com/downloads/debian stretch main" | sudo 
 sudo apt-get update
 sudo apt-get install -y 3cxpbx
 
-echo 1 | command
 
