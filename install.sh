@@ -13,13 +13,6 @@ wget -o file https://github.com/febo01/3cxinstall/blob/master/Integration.zip
 
 wget "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 sudo dpkg -i google-chrome-stable_current_amd64.deb
- 
-
-mkdir /mnt/dav
-
-mount -t  davfs  "https://stockage.orizonmobile.com/Technique/3606/Telephonie/3CX/wireshark" /mnt/dav/
-
-echo "fbarbier@orizonmobile.com" && echo "barbier1510" 
 
 
 
